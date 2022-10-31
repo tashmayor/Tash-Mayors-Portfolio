@@ -75,87 +75,139 @@ nav {
 
 /*about me*/
 
-#about h2 {
-  align-items: center;
-  font-size: 40px;
+.aboutme h2 {
+  text-align: center;
+  font-size: 30px;
   color: beige;
-  padding: 10px 0px 10px 0px;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
-#about p {
+.aboutme p {
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: beige;
+  font-size: 20px;
 }
 
-/*work*/
-
-#work h2 {
-  align-items: center;
-  font-size: 40px;
-  color: beige;
-  padding: 10px 0 10px 10px;
-}
+/*my work*/
 
 .container {
   display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 15px 15px;
+  grid-gap: 5px 5px;
   grid-template-areas:
     "horiseon horiseon"
     "project-2 project-3"
     "project-4 project-5";
 }
 
-img {
-  width: 500px;
-  height: 300px;
-  margin: 30px;
+#work h2 {
+  color: beige;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
 
+#work h3 {
+  color: rgb(83, 70, 96);
+  font-size: 20px;
+}
+
+img {
+  width: 600px;
+  height: 400px;
 }
 
 .horiseon {
   grid-area: horiseon;
-  width: 600px;
-  border: 1px solid #ccc;
-  margin: 25px;
+  width: 606px;
+  border: 3px solid #ccc;
+  margin: 40px;
+  background-color: beige;
 }
 
 .project-2 {
   grid-area: project-2;
-  width: 600px;
-  border: 1px solid #ccc;
-  margin: 25px;
+  width: 606px;
+  border: 3px solid #ccc;
+  margin: 40px;
+  background-color: beige;
 }
 
 .project-3 {
   grid-area: project-3;
-  width: 600px;
-  border: 1px solid #ccc;
-  margin: 25px;
+  width: 606px;
+  border: 3px solid #ccc;
+  margin: 40px;
+  background-color: beige;
 }
 
 .project-4 {
   grid-area: project-4;
-  width: 600px;
-  border: 1px solid #ccc;
-  margin: 25px;
+  width: 606px;
+  border: 3px solid #ccc;
+  margin: 40px;
+  background-color: beige;
 }
 
 .project-5 {
   grid-area: project-5;
-  width: 600px;
-  border: 1px solid #ccc;
-  margin: 25px;
+  width: 606px;
+  border: 3px solid #ccc;
+  margin: 40px;
+  background-color: beige;
 }
 
 /*contact*/
 
-#contact h2 {
+.contact {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  font-size: 40px;
-  color: beige;
-  padding: 10px 0 10px 10px;
+  background-color: beige;
+  margin-top: 4px;
 }
+
+.contactme h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(216, 148, 148);
+  text-decoration: underline;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.contactme li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 6px;
+}
+
+.contactme a {
+  color: rgb(216, 148, 148);
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.contact_links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+/*footer*/
