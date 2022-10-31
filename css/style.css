@@ -98,6 +98,59 @@ nav {
   padding: 10px 0 10px 10px;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px 15px;
+  grid-template-areas:
+    "horiseon horiseon"
+    "project-2 project-3"
+    "project-4 project-5";
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  margin: 30px;
+
+}
+
+.horiseon {
+  grid-area: horiseon;
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 25px;
+}
+
+.project-2 {
+  grid-area: project-2;
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 25px;
+}
+
+.project-3 {
+  grid-area: project-3;
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 25px;
+}
+
+.project-4 {
+  grid-area: project-4;
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 25px;
+}
+
+.project-5 {
+  grid-area: project-5;
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 25px;
+}
+
 /*contact*/
 
 #contact h2 {
@@ -105,9 +158,4 @@ nav {
   font-size: 40px;
   color: beige;
   padding: 10px 0 10px 10px;
-}
-
-.project-card {
-  width: 45%;
-  margin: 25px;
 }
