@@ -211,3 +211,10 @@ img {
 }
 
 /*footer*/
+
+footer {
+  background-color: beige;
+  color: rgb(216, 148, 148);
+  font-size: 14px;
+  text-align: center;
+}
