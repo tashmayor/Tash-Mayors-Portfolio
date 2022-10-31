@@ -61,13 +61,53 @@ nav {
   opacity: 0.75;
   background-size: cover;
   background-position: center;
-  height: 405px;
+  height: 505px;
   width: 100%;
   background-repeat: no-repeat;
 }
 
-.banner h2 {
-  color: white;
+.h2banner {
+  color: beige;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  padding: 80px 80px;
+}
+
+/*about me*/
+
+#about h2 {
+  align-items: center;
+  font-size: 40px;
+  color: beige;
+  padding: 10px 0px 10px 0px;
+}
+
+#about p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: beige;
+}
+
+/*work*/
+
+#work h2 {
+  align-items: center;
+  font-size: 40px;
+  color: beige;
+  padding: 10px 0 10px 10px;
+}
+
+/*contact*/
+
+#contact h2 {
+  align-items: center;
+  font-size: 40px;
+  color: beige;
+  padding: 10px 0 10px 10px;
+}
+
+.project-card {
+  width: 45%;
+  margin: 25px;
 }
