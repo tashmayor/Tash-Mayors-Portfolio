@@ -217,6 +217,7 @@ footer {
   color: rgb(216, 148, 148);
   font-size: 14px;
   text-align: center;
+  margin-top: -15px;
 }
 
 @media screen and (min-width:250px) and (max-width:480px) {
