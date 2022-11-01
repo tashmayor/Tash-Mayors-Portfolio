@@ -12,5 +12,9 @@ With these points in mind, in this challenge you’ll set yourself up for future
 ## What did I learn
 
 ## Demo 
+https://tashmayor.github.io/Tash-Mayors-Portfolio/
 
 ## Screenshot 
+
+<img width="552" alt="screenshot-portfolio" src="https://user-images.githubusercontent.com/56591001/199220859-02327090-94b4-4df7-8f6e-35686852a2ef.png"> 
+
