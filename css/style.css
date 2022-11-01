@@ -202,14 +202,6 @@ img {
   font-size: 14px;
 }
 
-.contact_links {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-  position: relative;
-  overflow: hidden;
-}
-
 /*footer*/
 
 footer {
@@ -218,24 +210,4 @@ footer {
   font-size: 14px;
   text-align: center;
   margin-top: -15px;
-}
-
-@media screen and (min-width:250px) and (max-width:480px) {
-  .container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-/* Tablet View */
-@media screen and (min-width:481px) and (max-width:768px) {
-  .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* Laptop View */
-@media screen and (min-width:769px) and (max-width:1024px) {
-  .container {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
