@@ -9,7 +9,6 @@ A portfolio of work can showcase your skills and talents to employers looking to
  
 With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
-## What did I learn
 
 ## Demo 
 https://tashmayor.github.io/Tash-Mayors-Portfolio/

@@ -77,7 +77,7 @@ nav {
 /*about me*/
 
 .aboutme h2 {
-  text-align: center;
+  margin-right: 15px;
   font-size: 30px;
   color: beige;
   text-decoration: underline;
@@ -113,7 +113,7 @@ nav {
 #work h2 {
   color: beige;
   font-size: 30px;
-  text-align: center;
+  margin-right: 15px;
   text-decoration: underline;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -177,7 +177,6 @@ img {
 .contact {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   background-color: beige;
   margin-top: 4px;
 }
@@ -215,3 +214,5 @@ footer {
   text-align: center;
   margin-top: -15px;
 }
+
+@media only screen and (max-width: 700px) {}
